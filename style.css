@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  padding: 100px 40px 50px 40px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+button{
+  padding: 8px 22px;
+  font-size: 20px;
+  border-radius: 8px;
+  color: #fff;
+  width: 140px;
+  border: none;
+  cursor: pointer;
+}
+
+#btnPlus{
+  background: green;
+}
+
+#btnMinus{
+  background: red;
+}
